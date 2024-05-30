@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/bootstrap.css">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    
+    <title>sign up</title>
+</head>
+<body>
+
+<!--NAVIGATION BAR-->
+<header>
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <i class="fas fa-cubes fa-2x mr-2"> <span>3DRENT</span></i>
+        </a>
+        <a href="index.html">Home</a>
+        <a href="printers.html">About</a>
+        <a href="blog.html">Services</a>
+        <a href="about.html">Contact</a>
+        <!--  <a href="sign up.html">sign up</a>-->
+    </div>
+</header>
+
+<!--MAIN-->
+<main class="container my-5">
+    <div class="container"id ="container">
+      
+        
+        <form action="/signup" method="POST" id="signupForm"> 
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="submit" class="signupbtn"><a href="index.html"></a>submit</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="container text-white font-weight-bold">
+        <div class="row rounded pt-5 text-nowrap">
+            <div class="col-12 pb-5">
+                <nav class="navbar navbar-expand-lg border-top border-bottom justify-content-between position-relative">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="printers.html">SEARCH</a>
+                        </li>
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="#">ADVERTISE</a>
+                        </li>
+                        <li class="footer-logo d-none d-lg-block">
+                            <i class="fas fa-cubes fa-3x p-4 rounded-circle border position-absolute"></i>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav text-left">
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="#">FACEBOOK</a>
+                        </li>
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="https://twitter.com/ahmtbozaci">TWITTER</a>
+                        </li>
+                        <li class="nav-item pr-3 pr-xl-4">
+                            <a class="nav-link text-white " href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="#">GOOGLE+</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-3 text-center py-4 py-lg-0 mx-lg-5 nohover-line">
+            <h5 class="font-weight-bold">CONTACT</h5>
+            <p class="mb-0">Have a question or submission?</p>
+            <a href="mailto: abc@example.com">
+                <p class="mb-0 text-danger">info@3drent.com</p>
+            </a>
+        </div>
+        <div class="col-12 col-lg text-center">
+            <h5 class=" font-weight-bold">ABOUT</h5>
+            <p>This website is an online platform to rent a printer for projects.
+                <a href="#">
+                    <span class="text-danger">Learn more...</span>
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="d-flex footer-bottom">
+        <div>
+            <ul class="d-flex list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/futureismaker/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/ahmtbozaci"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+            </ul>
+        </div>
+        <p></p>
+        <small class="text-center">&copy; 3DPRİNTER 2020. ALL RIGHTS RESERVED.</small>
+    </div>
+</footer>
+<script src="./js/connect.js"></script>
+<script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh5AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- <script>
+//     var express = require("express")
+// var bodyParser = require("body-parser")
+// var mongoose = require("mongoose")
+
+// const app = express()
+
+// app.use(bodyParser.json())
+// app.use(express.static('C:/Users/raedm/Downloads/3D-Printer-Rent-master/3D-Printer-Rent-master/3d-project'))
+// app.use(bodyParser.urlencoded({
+//     extended:true
+// }))
+
+// mongoose.connect('mongodb://localhost:27017/essicatore',{
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// });
+
+// var db = mongoose.connection;
+
+// db.on('error',()=>console.log("Error in Connecting to Database"));
+// db.once('open',()=>console.log("Connected to Database"))
+
+// app.post("/sign_up",(req,res)=>{
+
+//     var email = req.body.email;
+   
+//     var password = req.body.password;
+
+//     var data = {
+      
+//         "email" : email,
+      
+//         "password" : password
+//     }
+
+//     db.collection('users').insertOne(data,(err,collection)=>{
+//         if(err){
+//             throw err;
+//         }
+//         console.log("Record Inserted Successfully");
+//     });
+
+//     return res.redirect('blog.html')
+
+// })
+
+
+// app.post("http://localhost",(req,res)=>{
+//     res.set({
+//         "Allow-access-Allow-Origin": '*'
+//     })
+//     return res.redirect('index.html');
+// }).listen(3000);
+
+
+// console.log("Listening on PORT 3000");
+    // document.getElementById('signupForm').addEventListener('submit', function(event) {
+    //     event.preventDefault(); // Prevent the default form submission
+
+    //     const email = document.getElementById('email').value;
+    //     const password = document.getElementById('password').value;
+
+    //     // Send the data to the server
+    //     fetch('/signup', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify({ email, password })
+    //     })
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data);
+    //         alert(data.message);
+    //     })
+    //     .catch(error => {
+    //         console.error('Error:', error);
+    //     });
+    // });
+</script> -->
+</body>
+</html>

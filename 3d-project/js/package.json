@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@mongodb-js/charts-embed-dom": "^3.2.1",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.4.2",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.8.0"
+    
+  }
+}
