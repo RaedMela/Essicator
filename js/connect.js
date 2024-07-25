@@ -11,7 +11,7 @@
 // app.use(bodyParser.json());
 
 // // const tempelatePath = path.join(__dirname, '../assets')
-// const publicPath = path.join(__dirname, 'C:/Users/raedm/Downloads/3D-Printer-Rent-master/3D-Printer-Rent-master/3d-project')
+// const publicPath = path.join(__dirname, '')
 // console.log(publicPath);
 
 // // app.set('view engine', 'hbs')
